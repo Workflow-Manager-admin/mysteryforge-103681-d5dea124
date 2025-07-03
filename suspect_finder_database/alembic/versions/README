@@ -1,0 +1,6 @@
+Place migration scripts in this directory.  
+Run:
+    alembic revision --autogenerate -m "init"
+then
+    alembic upgrade head
+to create and update database schema.
